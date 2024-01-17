@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * _strlen - Returns the lenght of a string.
  * @s: Type char pointer
@@ -14,15 +14,4 @@ int _strlen(char *s)
 	}
 		return (c);
 
-}
-
-/**
- * main - check the code
- *
- * Return: Always EXIT_SUCCESS.
- */
-int main(void)
-{
-	printf("%d\n", _strlen("My Dyn Lib"));
-	return (EXIT_SUCCESS);
 }
